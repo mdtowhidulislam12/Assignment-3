@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- Tailwind & daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontAwesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     <!-- Google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+     <style> 
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+     </style>
+</head>
+<body class="manrope-font">
+    <!-- header section -->
+        <header class="mx-[8%] my-[4%]">
+            <div class="nav flex items-center justify-between">
+                <!-- left nav -->
+                <div class="logo flex items-center gap-3">
+                    <h2><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] py-[7px] px-2 rounded-full"></i></h2>
+                    <h1 class="text-3xl font-bold">Rinterio</h1>
+                </div>
+                <!-- middle nav -->
+                <div class="nav-item">
+                    <ul class="lg:flex hidden lg:block gap-8 items-center">
+                        <li class="hover:font-bold font-bold"><a href="#">Home</a></li>
+                        <li class="hover:font-bold"><a href="#">Services</a></li>
+                        <li class="hover:font-bold"><a href="#">Portfolio</a></li>
+                        <li class="hover:font-bold"><a href="#">Blogs</a></li>
+                        <li class="hover:font-bold"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- responsive in sm -->
+                <div class="nav-item z-10  absolute top-10 right-10 bg-slate-200  p-5 rounded-xl hidden">
+                    <ul class="flex flex-col gap-5">
+                        <li class="hover:bg-white rounded-lg px-5"><a href="#">Home</a></li>
+                        <li class="hover:bg-white rounded-lg px-5"><a href="#">Services</a></li>
+                        <li class="hover:bg-white rounded-lg px-5"><a href="#">Portfolio</a></li>
+                        <li class="hover:bg-white rounded-lg px-5"><a href="#">Blogs</a></li>
+                        <li class="hover:bg-white rounded-lg px-5"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- right nav -->
+                 <div class="lg:flex md:flex items-center gap-3 hidden lg:block md:block ">
+                    <h2><i class="fa-solid fa-magnifying-glass bg-white border border-gray-200 py-[7px] px-2 rounded-full "></i></h2>
+                    <h2><i class="fa-solid fa-cart-shopping bg-white border border-gray-200 py-[7px] px-2 rounded-full "></i></h2>
+                    <button class="flex gap-3 items-center bg-[#ABEF5F] text-xl font-bold py-2 px-4 rounded-3xl">Book Consult <h2><i class="fa-solid fa-arrow-right text-lg text-white -rotate-45 bg-black py-0.5 px-2 rounded-full"></i></h2></button>
+                 </div>
+                 <!-- menu bars -->
+                 <h2 class=" lg:hidden"><i class="fa-solid fa-bars bg-white border border-gray-200 py-[7px] px-2 rounded-full  "></i></h2>
+
+
+
+            </div>
+        </header>
+    <!-- Main section -->
+        <main></main>
+    <!-- footer section -->
+        <footer></footer>
+</body>
+</html>
